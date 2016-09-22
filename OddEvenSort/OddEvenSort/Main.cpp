@@ -98,7 +98,7 @@ int main(int argc, char** argv) {
 	int receiveArray[1000];
 	int FullArray[1000];
 
-		
+
 
 	if (rank == 0)
 		fullArr = (int *)malloc(sizeof(int)*N);
